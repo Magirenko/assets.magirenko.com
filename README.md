@@ -1,0 +1,1 @@
+# assets.magirenko.com
