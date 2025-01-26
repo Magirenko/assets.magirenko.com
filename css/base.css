@@ -1323,7 +1323,7 @@ figure:hover img { cursor: url("../images/icon/icon-zoom-white.png"), pointer; o
 .gutter .grid li { padding: 0 0 14px 14px;}
 
 /* portfolio with title */
-.work-with-title .grid figcaption { background: rgba(19,19,19,.95); bottom: -25px; opacity: 1; display:block; padding: 25px 0; position: absolute; z-index: 2;}
+.work-with-title .grid figcaption { background: rgba(19,19,19,.95); bottom: -25px; opacity: 1; display:block; padding: 10px 0; position: absolute; z-index: 2;}
 .work-with-title .grid figure:hover figcaption {bottom:0}
 .work-with-title .grid figcaption p {opacity: 0; transform: translateY(13px); transition-property: transform, opacity; margin: 0}
 .work-with-title .grid figure:hover figcaption, .work-with-title .grid figure:hover p { opacity: 1; display:block;  }
@@ -1331,7 +1331,7 @@ figure:hover img { cursor: url("../images/icon/icon-zoom-white.png"), pointer; o
 .work-with-title figure:hover img { cursor: pointer; opacity: 1; transform: scale(1.1, 1.1); }
 
 /* portfolio with title light */
-.work-with-title-light .grid figcaption { background: rgba(255,255,255,1); bottom: 0; opacity: 1; display:block; padding: 25px 0; position: absolute; z-index: 2;}
+.work-with-title-light .grid figcaption { background: rgba(255,255,255,1); bottom: 0; opacity: 1; display:block; padding: 10px 0; position: absolute; z-index: 2;}
 .work-with-title-light .grid figcaption p {margin:0}
 .work-with-title-light .grid figure:hover figcaption {background: rgba(0,0,0,.95);}
 .work-with-title-light .grid figure:hover figcaption .text-dark-gray {color: #fff !important}
