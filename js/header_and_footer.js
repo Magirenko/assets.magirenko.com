@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", (event) => {
-    function placehf() {
+function placehf() {
+    document.addEventListener("DOMContentLoaded", (event) => {
         var req1 = new XMLHttpRequest();
         req1.open("GET", "https://assets.magirenko.com/blocks/header.html", false);
         req1.send();
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         var footer = req2.responseText;
         
         document.getElementById("page").innerHTML = header + document.getElementById("page").innerHTML + footer;
-    }
+    })
+}
 
-    placehf()
-})
+placehf()
