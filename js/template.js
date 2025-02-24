@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-   function PlaceTemp() {
+   function PlaceTemp(uri) {
         var PlaceTemplate = document.getElementById("PlaceTemplate");
-        var val = PlaceTemplate.getAttribute("template");
+        var val = uri;
         var req = new XMLHttpRequest();
         req.open("GET", val, false);
         req.send();
         document.body.innerHTML = req.responseText;
    }
 
-   PlaceTemp();
+   PlaceTemp(PlaceTemplate.getAttribute("template"));
 })
