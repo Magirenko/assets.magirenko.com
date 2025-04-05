@@ -10,13 +10,13 @@ function placehf() {
    var footer = req2.responseText;
 
    var downcheckreq = new XMLHttpRequest();
-   downcheckreq.open("GET", "https://data.magirenko.com/downcheck");
+   downcheckreq.open("GET", "https://data.magirenko.com/downcheck", false);
    downcheckreq.send();
    var downcheck = downcheckreq.responseText;
 
    if (downcheck == "true") {
       var downreq = new XMLHttpRequest();
-      downreq.open("GET", "https://assets.magirenko.com/templates/down.html");
+      downreq.open("GET", "https://assets.magirenko.com/templates/down.html", false);
       downreq.send();
       var down = downreq.responseText;
 
