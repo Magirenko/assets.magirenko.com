@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     var req1 = new XMLHttpRequest();
-    req1.open("GET", "/header.html", false);
+    req1.open("GET", "https://assets.magirenko.com/blocks/header.html", false);
     req1.send();
     var header = req1.responseText;
 
